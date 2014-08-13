@@ -1,7 +1,43 @@
-﻿<head>Welcome to my site!
+
+<head>
+Welcome to my site!
+<style type="text/css">
+.row {
+	vertical-align: top;
+	height: auto !important;
+}
+
+.list {
+	display: none;
+}
+
+.show {
+	display: none;
+}
+
+.hide:target+.show {
+	display: inline;
+}
+
+.hide:target {
+	display: none;
+}
+
+.hide:target ~ .list {
+	display: inline;
+}
+
+@media print {
+	.hide, .show {
+		display: none;
+	}
+}
+</style>
 </head>
+
 <hr>
 <br>
+
 <body>
 	<table border="1">
 		<tr>
@@ -9,7 +45,67 @@
 				etc)</th>
 		</tr>
 		<tr>
-			<td><a href="http://myblogmchopker.blogspot.in">http://myblogmchopker.blogspot.in</a>/</td>
+			<td><a href="http://myblogmchopker.blogspot.in">http://myblogmchopker.blogspot.in</a>
+				<div class="row">
+					<a href="#hide1" class="hide" id="hide1">+</a> <a href="#show1"
+						class="show" id="show1">-</a>
+					<div class="list">
+						<ul>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2013/09/a-helloworld-servlet-in-jboss-eap-6.html">A
+									Hello World Servle in JBoss EAP 6</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2013/09/a-helloworld-osgi-module-using-ecipse.html">A
+									Hello World OSGI Module using Eclipse</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2013/10/a-simple-webservice-using-jdk.html">A
+									WebService Using JDK</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2013/09/generating-web-service-java-client-from.html">Generating
+									a Web Service Java Client using Eclipse</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2013/10/java-keytool-command-usage.html">Java
+									Keytool Command Usage</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2013/10/jboss-eap-6-jboss-monitoring-java-client.html">JBoss
+									EAP JMS Monitoring Client</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2013/10/java-snmp-trap-sender-and-receiver.html">SNMP4j
+									Trap Sender and Receiver</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2013/10/java-xmlencoder-issue-with.html">Java
+									XMLEncoder issue with java.sql.Timestamp in JDK 5 and 6</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2014/01/jetty-embedded-server-java-7-migration.html">Jetty
+									Embedded Server Java 7 migration issue ( SSLv2Hello disabled )</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2013/12/difference-between-forname-and.html">Difference
+									between forName() and loadClass() Java API methods</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2013/12/java-errors-classnotfounderror.html">Java
+									Errors: ClassNotFoundError, NoClassDefFoundError,
+									UnsupportedClassVersionError, LinkageError, ClassFormatError</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2013/10/how-to-identify-high-cpu-thread-in-java.html">How
+									to identify a High CPU Java Thread</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2013/11/java-7-performance-issue-with.html">Java
+									7 Performance Issue with XMLEncoder/XMLDecoder classes</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2014/06/postgres-performance-improvement-tips.html">Postgres
+									Performance Improvement Tips</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2014/06/java-code-review-checklist.html">Java
+									Code Review Checklist</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2014/07/the-importance-of-governance-in.html">Importance
+									of Software Governance</a></li>
+							<li><a
+								href="http://myblogmchopker.blogspot.in/2013/10/open-ldap-setup-in-windows-and-java.html">Open
+									LDAP Setup in Windows and a Java Spring LDAP Client Development</a></li>
+						</ul>
+					</div>
+				</div></td>
 		</tr>
 	</table>
 	<br>
@@ -47,5 +143,9 @@
 	<br>
 	<hr>
 	<font size="2">-by Mahesh Kumar Chopker</font>
+	<div align="right">
+		<img src="../../../../Users/mchopker/Pictures/mchopker.jpg" width="50"
+			height="50" alt="" title="" />
+	</div>
 </body>
 
