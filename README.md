@@ -6,7 +6,7 @@ Goal-oriented Software Professional working in the industry for more than 20 yea
 
 ## Technical Blogs
 * Many of my technical blog posts are maintained here: https://myblogmchopker.blogspot.com/
-* [Remote log grep and tail via a centralized UI](remote log grep and tail via a centralized UI/remote log grep and tail via a centralized UI.md)
+* [Remote log grep and tail via a centralized UI](./blogs/remote_log_grep_and_tail_via_a_centralized_UI/readme.md)
 
 ## Articles on DZone
 * http://java.dzone.com/articles/java-code-review-checklist
