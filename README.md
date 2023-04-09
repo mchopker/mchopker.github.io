@@ -5,8 +5,8 @@ This is the home of page of my technical blog posts, articles, presentation and 
 Goal-oriented Software Professional working in the industry for more than 20 years developing software applications, maintaining and supporting production issues and mentoring new hires. Architected and developed various enterprise applications and customer facing portals.
 
 ## Technical Blogs
-My technical blog posts are maintained here: 
-* https://myblogmchopker.blogspot.com/
+* Many of my technical blog posts are maintained here: https://myblogmchopker.blogspot.com/
+* [Remote log grep and tail via a centralized UI](remote log grep and tail via a centralized UI/remote log grep and tail via a centralized UI.md)
 
 ## Articles on DZone
 * http://java.dzone.com/articles/java-code-review-checklist
