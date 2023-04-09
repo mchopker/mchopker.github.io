@@ -1,5 +1,5 @@
 # mchopker.github.io
-This is the home of page of my technical blog posts.
+This is the home of page of my technical blog posts, articles, presentation and open-sourced projects.
 
 ## About Myself
 Goal-oriented Software Professional working in the industry for more than 20 years developing software applications, maintaining and supporting production issues and mentoring new hires. Architected and developed various enterprise applications and customer facing portals.
@@ -16,3 +16,7 @@ My technical blog posts are maintained here:
 ## Presentations on SlideShare
 * http://www.slideshare.net/MaheshChopker/documents
 * http://www.slideshare.net/MaheshChopker/presentations
+
+## Open Source Projects
+* [log-parse-agent](https://github.com/mchopker/log-parse-agent)
+* [log-parse-ui](https://github.com/mchopker/log-parse-ui)
