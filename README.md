@@ -12,6 +12,6 @@ My technical blog posts are maintained here: https://myblogmchopker.blogspot.com
 * http://java.dzone.com/articles/importance-governance-software
 * http://java.dzone.com/articles/enterprise-application-journey
 
-## Presentation on SlideShare
+## Presentations on SlideShare
 * http://www.slideshare.net/MaheshChopker/documents
 * http://www.slideshare.net/MaheshChopker/presentations
